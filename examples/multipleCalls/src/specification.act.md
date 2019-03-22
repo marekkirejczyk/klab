@@ -24,9 +24,6 @@ iff
   VCallDepth < 1024
   VCallValue == 0
 
-calls
-
-  Callee.tempDelta
 ```
 
 ```act
@@ -49,10 +46,6 @@ iff
 
   VCallValue == 0
 
-
-calls
-
-   Callee.add
 ```
 
 We can extract the pc values of internal solidity functions:
